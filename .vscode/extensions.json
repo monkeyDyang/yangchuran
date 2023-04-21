@@ -12,6 +12,7 @@
         "redhat.vscode-yaml",
         "wakatime.vscode-wakatime",
         "eamodio.gitlens",
-        "gruntfuggly.todo-tree"
+        "gruntfuggly.todo-tree",
+        "codeium.codeium"
     ]
 }

@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM node:latest AS dev-envs
+FROM --platform=$BUILDPLATFORM node:19 AS dev-envs
 
 COPY . .
 
