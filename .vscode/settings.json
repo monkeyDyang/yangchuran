@@ -1,12 +1,6 @@
 {
-  "cSpell.words": [
-    "Antd",
-    "fullhd",
-    "Parens",
-    "rushstack",
-    "VITE",
-    "yangchuran"
-  ],
+  "cSpell.words": ["Antd", "fullhd", "Parens", "rushstack", "VITE", "yangchuran"],
+  "cSpell.ignoreRegExpList": ["\\\\node_modules\\\\", "\\\\dist\\\\", "\\\\test\\\\", "\\\\.vscode\\\\"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
