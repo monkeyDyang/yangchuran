@@ -1,8 +1,4 @@
-import axios, {
-  type AxiosInstance,
-  type AxiosResponse,
-  type AxiosRequestConfig,
-} from "axios";
+import axios, { type AxiosInstance, type AxiosResponse, type AxiosRequestConfig } from "axios";
 import type RequestConfig from "@/util/axios/RequestConfig";
 import type Response from "@/util/axios/Response";
 
@@ -64,7 +60,7 @@ class Request {
 
     // 请求拦截
     this.instance.interceptors.request.use(
-      (config) => {
+      config => {
         console.log("请求发送成功");
         // TODO：设置全局loading
         if (this.config.showLoading) {
@@ -72,7 +68,7 @@ class Request {
         }
         return config;
       },
-      (err) => {
+      err => {
         console.log("请求发送失败");
         return err;
       }
@@ -81,12 +77,12 @@ class Request {
     // 响应拦截
     this.instance.interceptors.response.use(
       // 请求完毕，关闭loading
-      (res) => {
+      res => {
         console.log("响应成功的拦截");
         // this.loading?.close();
         return res;
       },
-      (err) => {
+      err => {
         // this.loading?.close();
         // 这里用来处理http常见错误，进行全局提示
         // let message = "";

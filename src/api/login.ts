@@ -13,19 +13,13 @@ const request = new Request({
   },
 });
 
-export const loginApi = (data: {
-  password: string;
-  username: string;
-}): Promise<Response<User>> =>
+export const loginApi = (data: { password: string; username: string }): Promise<Response<User>> =>
   request.post({
     url: "/login1",
     data: data,
   });
 
-export const getUserByUserName = (data: {
-  size: number;
-  current: number;
-}): Promise<Response<User>> =>
+export const getUserByUserName = (data: { size: number; current: number }): Promise<Response<User>> =>
   request.post({
     url: "/sys_user/page",
     data: data,
