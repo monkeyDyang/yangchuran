@@ -4,6 +4,22 @@ import { RouterView } from "vue-router";
 
 <template>
   <RouterView />
+  <div class="footer">
+    <div>
+      <a target="_blank" rel="noopener" href="http://www.beian.gov.cn">湘ICP备2023008600号-1</a>
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+}
+</style>
