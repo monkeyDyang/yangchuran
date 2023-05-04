@@ -1,10 +1,10 @@
-import axios, { type AxiosInstance, type AxiosResponse, type AxiosRequestConfig } from "axios";
+import axios, { type AxiosInstance, type AxiosResponse, type InternalAxiosRequestConfig } from "axios";
 import type RequestConfig from "@/util/axios/RequestConfig";
 import type Response from "@/util/axios/Response";
 
 // 自定义拦截器
 interface InterceptorHooks {
-  requestInterceptor?: (config: AxiosRequestConfig) => AxiosRequestConfig;
+  requestInterceptor?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig;
   requestInterceptorCatch?: (error: unknown) => unknown;
   responseInterceptor?: (response: AxiosResponse) => AxiosResponse;
   responseInterceptorCatch?: (error: unknown) => unknown;
@@ -49,14 +49,19 @@ class Request {
 
   // 设置拦截器
   setupInterceptor(): void {
-    this.instance.interceptors.request.use(
-      this.interceptorHooks?.requestInterceptor,
-      this.interceptorHooks?.requestInterceptorCatch
-    );
-    this.instance.interceptors.response.use(
-      this.interceptorHooks?.responseInterceptor,
-      this.interceptorHooks?.responseInterceptorCatch
-    );
+    // Request interceptor hooks
+    const requestInterceptor = this.interceptorHooks?.requestInterceptor;
+    const requestInterceptorCatch = this.interceptorHooks?.requestInterceptorCatch;
+
+    // Response interceptor hooks
+    const responseInterceptor = this.interceptorHooks?.responseInterceptor;
+    const responseInterceptorCatch = this.interceptorHooks?.responseInterceptorCatch;
+
+    // Set request interceptor hooks
+    this.instance.interceptors.request.use(requestInterceptor, requestInterceptorCatch);
+
+    // Set response interceptor hooks
+    this.instance.interceptors.response.use(responseInterceptor, responseInterceptorCatch);
 
     // 请求拦截
     this.instance.interceptors.request.use(
