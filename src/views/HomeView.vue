@@ -32,4 +32,15 @@ h2 {
   background-size: cover;
   margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+  h2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
 </style>
