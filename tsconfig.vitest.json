@@ -1,4 +1,3 @@
-// 单元测试配置项
 {
   "extends": "./tsconfig.app.json",
   "exclude": [],
