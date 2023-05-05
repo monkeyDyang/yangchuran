@@ -12,7 +12,7 @@ setInterval(() => {
   const minutes = Math.floor(timeDiff / 1000 / 60) % 60;
   const hours = Math.floor(timeDiff / 1000 / 60 / 60) % 24;
   const days = Math.floor(timeDiff / 1000 / 60 / 60 / 24);
-  time.value = `${days} 天, ${hours} 时, ${minutes} 分, ${seconds} 秒`;
+  time.value = `出生第 ${days} 天 - ${hours} 时 - ${minutes} 分 - ${seconds} 秒`;
 }, 1000);
 </script>
 
@@ -25,5 +25,11 @@ setInterval(() => {
 h2 {
   font-size: 3rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("@/assets/image/01.jpg");
+  background-size: cover;
 }
 </style>
