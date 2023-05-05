@@ -27,9 +27,9 @@ h2 {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
   background-image: url("@/assets/image/01.jpg");
   background-size: cover;
+  margin-bottom: 0;
 }
 </style>
