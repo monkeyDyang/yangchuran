@@ -28,7 +28,7 @@ h2 {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-image: url("@/assets/image/01.jpg");
+  background-image: url("@/assets/image/bg.jpg");
   background-size: cover;
   margin-bottom: 0;
 }
