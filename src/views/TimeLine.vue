@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-container">
-    <a-timeline mode="alternate">
+    <a-timeline mode="alternate" style="backdrop-filter: blur(5px)">
       <a-timeline-item>
         <img
           class="timeline-image"
@@ -67,12 +67,11 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5em 15em;
-  opacity: 0.8;
+  padding: 5em 0;
 }
 
 .timeline-image {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 30em;
 }
 </style>
