@@ -1,32 +1,66 @@
 <template>
   <div class="timeline-container">
-    <!-- TODO 滑动时间轴时，将当前中间的时间轴节点对应的图片设置为背景图片-->
     <a-timeline mode="alternate">
       <a-timeline-item>
-        <img class="timeline-image" src="../assets/image/bg.jpg" alt="background image" />
+        <img
+          class="timeline-image"
+          src="../assets/image/bg.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        />
         2022年11月15日
       </a-timeline-item>
       <a-timeline-item>
-        <img class="timeline-image" src="../assets/image/bg.jpg" alt="background image" />
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        />
         2022年12月15日
       </a-timeline-item>
       <a-timeline-item>
-        <img class="timeline-image" src="../assets/image/bg.jpg" alt="background image" />
-        2023年1月15日
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        />
+        2022年12月15日
       </a-timeline-item>
       <a-timeline-item>
-        <img class="timeline-image" src="../assets/image/bg.jpg" alt="background image" />
-        2023年2月15日
-      </a-timeline-item>
-      <a-timeline-item>
-        <img class="timeline-image" src="../assets/image/bg.jpg" alt="background image" />
-        2023年3月15日
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        />
+        2022年12月15日
       </a-timeline-item>
     </a-timeline>
   </div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+export default {
+  methods: {
+    setBackgroundImage(event: MouseEvent) {
+      const target = event.target as HTMLImageElement;
+      const backgroundImage = `url(${target.src})`;
+      const timelineContainer = document.querySelector(".timeline-container") as HTMLElement;
+      timelineContainer.style.backgroundImage = backgroundImage;
+    },
+    clearBackgroundImage() {
+      const timelineContainer = document.querySelector(".timeline-container") as HTMLElement;
+      timelineContainer.style.backgroundImage = "";
+    },
+  },
+};
+</script>
 
 <style scoped>
 .timeline-container {
@@ -34,6 +68,7 @@
   align-items: center;
   justify-content: center;
   padding: 5em 15em;
+  opacity: 0.8;
 }
 
 .timeline-image {
