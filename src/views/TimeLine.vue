@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-container">
-    <a-timeline mode="alternate" style="backdrop-filter: blur(5px)">
+    <a-timeline mode="alternate">
       <a-timeline-item>
         <img
           class="timeline-image"
@@ -51,11 +51,11 @@ export default {
     setBackgroundImage(event: MouseEvent) {
       const target = event.target as HTMLImageElement;
       const backgroundImage = `url(${target.src})`;
-      const timelineContainer = document.querySelector(".timeline-container") as HTMLElement;
+      const timelineContainer = document.querySelector("#app") as HTMLElement;
       timelineContainer.style.backgroundImage = backgroundImage;
     },
     clearBackgroundImage() {
-      const timelineContainer = document.querySelector(".timeline-container") as HTMLElement;
+      const timelineContainer = document.querySelector("#app") as HTMLElement;
       timelineContainer.style.backgroundImage = "";
     },
   },
@@ -68,6 +68,7 @@ export default {
   align-items: center;
   justify-content: center;
   padding: 5em 0;
+  backdrop-filter: blur(5px);
 }
 
 .timeline-image {
