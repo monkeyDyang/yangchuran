@@ -1,5 +1,6 @@
 <template>
   <div class="timeline-container">
+    <button class="btn btn-primary">ok</button>
     <a-timeline mode="alternate">
       <a-timeline-item>
         <img
