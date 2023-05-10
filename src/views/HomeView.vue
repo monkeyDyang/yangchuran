@@ -17,30 +17,20 @@ setInterval(() => {
 </script>
 
 <template>
-  <div>
-    <h2>{{ time }}</h2>
+  <div class="hero min-h-screen">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">Hello 果果</h1>
+        <p class="mb-5">
+          {{ time }}
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 <style scoped>
-h2 {
-  font-size: 3rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+.hero {
   background-image: url("@/assets/image/bg.jpg");
-  background-size: cover;
-  margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
-  h2 {
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
 }
 </style>
