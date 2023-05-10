@@ -21,7 +21,7 @@ setInterval(() => {
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Hello 果果</h1>
+        <h1 class="mb-5 text-5xl font-bold tracking-in-contract-bck">Hello 果果</h1>
         <p class="mb-5">
           {{ time }}
         </p>
@@ -32,5 +32,22 @@ setInterval(() => {
 <style scoped>
 .hero {
   background-image: url("@/assets/image/bg.jpg");
+}
+.tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
 }
 </style>
