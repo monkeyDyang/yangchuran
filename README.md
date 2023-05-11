@@ -1,6 +1,14 @@
-<h1 align="center">Yang ChuRan</h1>
+<h1 align="center">Yang ChuRan👶</h1>
 
-# 目录结构
+<p align="center">
+	<a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/watchers/monkeyDyang/yangchuran?style=social"></a>
+  <a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/forks/monkeyDyang/yangchuran?style=social"></a>
+  <a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/stars/monkeyDyang/yangchuran?style=social"></a>
+	<a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/last-commit/monkeyDyang/yangchuran?logo=github"></a>
+</p>
+
+
+# 🌵 目录结构
 
 ```
 ├── public
@@ -18,14 +26,16 @@
 │   └── main.ts               # Vue 入口 TS
 ├── index.html                # Vue 入口模板
 ├── tests                     # 测试工具
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
+├── package.json              # Node.js 项目的配置文件
+├── postcss.config.js         # CSS处理器PostCSS的配置文件
+├── tailwind.config.js        # Tailwind CSS 的配置文件
+├── tsconfig.json             # TypeScript的配置文件
+├── vite.config.ts            # Vite的配置文件
 └── README.md
 
 ```
 
-# 项目下载和运行
+# 📦 项目下载和运行
 
 ### 安装项目的依赖包
 
@@ -75,7 +85,7 @@ yarn run type-check
 yarn run lint
 ```
 
-# VS Code 插件
+# 🧩 VS Code 插件
 
 - Vue Language Features (Volar)：Vue3 支持，高亮，语法检查
 - Vue VSCode Snippets：Vue 代码模板
