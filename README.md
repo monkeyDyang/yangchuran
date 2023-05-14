@@ -1,4 +1,4 @@
-<h1 align="center">Yang ChuRan👶</h1>
+<h1 align="center">Yang ChuRan👼</h1>
 
 <p align="center">
 	<a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/watchers/monkeyDyang/yangchuran?style=social"></a>
@@ -6,7 +6,6 @@
   <a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/stars/monkeyDyang/yangchuran?style=social"></a>
 	<a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/last-commit/monkeyDyang/yangchuran?logo=github"></a>
 </p>
-
 
 # 🌵 目录结构
 
@@ -37,62 +36,29 @@
 
 # 📦 项目下载和运行
 
-### 安装项目的依赖包
-
-```sh
-yarn install
-```
-
-### 开发环境下启动项目
-
-```sh
-yarn run dev
-```
-
-### 类型检查并且构建生产环境下的代码
-
-```sh
-yarn run build
-```
-
-### 预览模式启动应用程序，用于测试性能和可靠性
-
-```sh
-yarn run preview
-```
-
-### 在 JSDOM 环境中运行测试脚本 [Vitest](https://vitest.dev/)
-
-```sh
-yarn run test:unit
-```
-
-### 构建生产环境下的代码
-
-```sh
-yarn run build-only
-```
-
-### 类型检查工具
-
-```sh
-yarn run type-check
-```
-
-### 代码检查与自动修复 [ESLint](https://eslint.org/)
-
-```sh
-yarn run lint
-```
+| 命令                  | 描述                                                      |
+| --------------------- | --------------------------------------------------------- |
+| `pnpm install`        | 安装项目的依赖包                                          |
+| `pnpm run dev`        | 开发环境下启动项目                                        |
+| `pnpm run build`      | 类型检查并且构建生产环境下的代码                          |
+| `pnpm run preview`    | 预览模式启动应用程序，用于测试性能和可靠性                |
+| `pnpm run test:unit`  | 在 JSDOM 环境中运行测试脚本 [Vitest](https://vitest.dev/) |
+| `pnpm run build-only` | 构建生产环境下的代码                                      |
+| `pnpm run type-check` | 类型检查工具                                              |
+| `pnpm run lint`       | 代码检查与自动修复 [ESLint](https://eslint.org/)          |
 
 # 🧩 VS Code 插件
 
-- Vue Language Features (Volar)：Vue3 支持，高亮，语法检查
-- Vue VSCode Snippets：Vue 代码模板
-- Vue Peek：快速跳转到组件、模块定义的文件
-- Vite：自动化构建、热更新
-- ESLint：语法规则和代码风格的检查工具
-- Prettier：代码格式化工具
-- Code Spell Checker：拼写检查
-- Code Translate：翻译
-- Codeium：人工智能助手
+| 名称                          | 功能                                      |
+| ----------------------------- | ----------------------------------------- |
+| Vue Language Features (Volar) | Vue3 支持，高亮，语法检查                 |
+| Vue VSCode Snippets           | Vue 代码模板                              |
+| Vue Peek                      | 快速跳转到组件、模块定义的文件            |
+| Vite                          | 自动化构建、热更新                        |
+| Prettier                      | 代码格式化工具                            |
+| ESLint                        | 语法规则和代码风格的检查工具              |
+| Code Spell Checker            | 拼写检查                                  |
+| Code Translate                | 翻译                                      |
+| Codeium                       | 人工智能编码自动完成和聊天                |
+| Gitmoji                       | VSCode 中用于 Git 提交信息的 Gitmoji 工具 |
+| Tailwind CSS IntelliSense     | TailwindCSS 语法支持                      |
