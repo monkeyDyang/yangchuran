@@ -14,6 +14,7 @@
     "gruntfuggly.todo-tree",
     "codeium.codeium",
     "bradlc.vscode-tailwindcss",
-    "seatonjiang.gitmoji-vscode"
+    "seatonjiang.gitmoji-vscode",
+    "antfu.iconify"
   ]
 }
