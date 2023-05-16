@@ -62,3 +62,28 @@
 | Codeium                       | 人工智能编码自动完成和聊天                |
 | Gitmoji                       | VSCode 中用于 Git 提交信息的 Gitmoji 工具 |
 | Tailwind CSS IntelliSense     | TailwindCSS 语法支持                      |
+
+# 😁 Commit Emoji
+
+|         emoji          | emoji代码                    | commit 说明           |
+| :--------------------: | ---------------------------- | --------------------- |
+|         :tada:         | ```:tada:```                 | 初次提交              |
+|     :construction:     | ```:construction:```         | 工作进行中            |
+|         :memo:         | ```:memo:```                 | 撰写文档              |
+|       :sparkles:       | ```:sparkles:```             | 引入新功能            |
+|        :wrench:        | ```:wrench:```               | 修改配置文件          |
+|         :fire:         | ```:fire:```                 | 移除代码或文件        |
+|       :lipstick:       | ```:lipstick:```             | 更新 UI 和样式文件    |
+|         :art:          | ```:art:```                  | 改进代码结构/代码格式 |
+|         :zap:          | ```:zap:```                  | 提升性能              |
+|   :white_check_mark:   | ```:white_check_mark:```     | 增加测试              |
+|         :bug:          | ```:bug:```                  | 修复 bug              |
+|         :lock:         | ```:lock:```                 | 修复安全问题          |
+|       :pencil2:        | ```:pencil2:```              | 修正拼写错误          |
+| :globe_with_meridians: | ```:globe_with_meridians:``` | 国际化与本地化        |
+|      :arrow_down:      | ```:arrow_down:```           | 降级依赖              |
+|       :arrow_up:       | ```:arrow_up:```             | 升级依赖              |
+|   :heavy_minus_sign:   | ```:heavy_minus_sign:```     | 减少一个依赖          |
+|   :heavy_plus_sign:    | ```:heavy_plug_sign:```      | 增加一个依赖          |
+|       :bookmark:       | ```:bookmark:```             | 发行/版本标签         |
+|        :hammer:        | ```:hammer:```               | 重大重构              |
