@@ -1,50 +1,3 @@
-<template>
-  <div class="timeline-container">
-    <a-timeline mode="alternate">
-      <a-timeline-item>
-        <img
-          class="timeline-image"
-          src="../assets/image/bg.jpg"
-          alt="background image"
-          @mouseover="setBackgroundImage"
-          @mouseout="clearBackgroundImage"
-        />
-        2022年11月15日
-      </a-timeline-item>
-      <a-timeline-item>
-        <img
-          class="timeline-image"
-          src="../assets/image/0001.jpg"
-          alt="background image"
-          @mouseover="setBackgroundImage"
-          @mouseout="clearBackgroundImage"
-        />
-        2022年12月15日
-      </a-timeline-item>
-      <a-timeline-item>
-        <img
-          class="timeline-image"
-          src="../assets/image/0001.jpg"
-          alt="background image"
-          @mouseover="setBackgroundImage"
-          @mouseout="clearBackgroundImage"
-        />
-        2022年12月15日
-      </a-timeline-item>
-      <a-timeline-item>
-        <img
-          class="timeline-image"
-          src="../assets/image/0001.jpg"
-          alt="background image"
-          @mouseover="setBackgroundImage"
-          @mouseout="clearBackgroundImage"
-        />
-        2022年12月15日
-      </a-timeline-item>
-    </a-timeline>
-  </div>
-</template>
-
 <script lang="ts">
 export default {
   methods: {
@@ -61,6 +14,53 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="timeline-container">
+    <a-timeline mode="alternate">
+      <a-timeline-item>
+        <img
+          class="timeline-image"
+          src="../assets/image/bg.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        >
+        2022年11月15日
+      </a-timeline-item>
+      <a-timeline-item>
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        >
+        2022年12月15日
+      </a-timeline-item>
+      <a-timeline-item>
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        >
+        2022年12月15日
+      </a-timeline-item>
+      <a-timeline-item>
+        <img
+          class="timeline-image"
+          src="../assets/image/0001.jpg"
+          alt="background image"
+          @mouseover="setBackgroundImage"
+          @mouseout="clearBackgroundImage"
+        >
+        2022年12月15日
+      </a-timeline-item>
+    </a-timeline>
+  </div>
+</template>
 
 <style scoped>
 .timeline-container {

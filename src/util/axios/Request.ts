@@ -4,10 +4,10 @@ import type Response from "@/util/axios/Response";
 
 // 自定义拦截器
 interface InterceptorHooks {
-  requestInterceptor?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig;
-  requestInterceptorCatch?: (error: unknown) => unknown;
-  responseInterceptor?: (response: AxiosResponse) => AxiosResponse;
-  responseInterceptorCatch?: (error: unknown) => unknown;
+  requestInterceptor?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig
+  requestInterceptorCatch?: (error: unknown) => unknown
+  responseInterceptor?: (response: AxiosResponse) => AxiosResponse
+  responseInterceptorCatch?: (error: unknown) => unknown
 }
 
 // 定义请求
@@ -17,6 +17,7 @@ class Request {
     baseURL: import.meta.env.VITE_REQUEST_BASE_URL,
     timeout: 60000,
   };
+
   interceptorHooks?: InterceptorHooks;
   loading?: boolean;
 
@@ -65,7 +66,7 @@ class Request {
 
     // 请求拦截
     this.instance.interceptors.request.use(
-      config => {
+      (config) => {
         console.log("请求发送成功");
         // TODO：设置全局loading
         if (this.config.showLoading) {
@@ -73,21 +74,21 @@ class Request {
         }
         return config;
       },
-      err => {
+      (err) => {
         console.log("请求发送失败");
         return err;
-      }
+      },
     );
 
     // 响应拦截
     this.instance.interceptors.response.use(
       // 请求完毕，关闭loading
-      res => {
+      (res) => {
         console.log("响应成功的拦截");
         // this.loading?.close();
         return res;
       },
-      err => {
+      (err) => {
         // this.loading?.close();
         // 这里用来处理http常见错误，进行全局提示
         // let message = "";
@@ -129,9 +130,9 @@ class Request {
         //   default:
         //     message = `连接出错(${err.response.status})!`;
         // }
-        console.log("响应成功的拦截：" + err);
+        console.log(`响应成功的拦截：${err}`);
         return err;
-      }
+      },
     );
   }
 }
