@@ -20,9 +20,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.options": {
-    "configFile": ".eslintrc.js"
-  },
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
