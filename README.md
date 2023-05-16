@@ -63,7 +63,7 @@
 | Gitmoji                       | VSCode 中用于 Git 提交信息的 Gitmoji 工具 |
 | Tailwind CSS IntelliSense     | TailwindCSS 语法支持                      |
 
-# Commit Emoji
+# 😁 Commit Emoji
 
 |         emoji          | emoji代码                    | commit 说明           |
 | :--------------------: | ---------------------------- | --------------------- |
