@@ -1,15 +1,13 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.json",
+  "extends": "./tsconfig.config.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
-    "composite": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     },
-    "verbatimModuleSyntax": true,
-    "importsNotUsedAsValues": "remove",
-    "ignoreDeprecations": "5.0"
+    "types": ["node", "vite-plugin-pages/client"],
+    "sourceMap": true
   }
 }
