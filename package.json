@@ -1,7 +1,7 @@
 {
   "name": "yangchuran",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.5.1",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -34,6 +34,7 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "typescript": "~5.0.4",
+    "unplugin-vue-router": "^0.6.4",
     "vite": "^3.0.4",
     "vitest": "^0.31.0",
     "vue-tsc": "^1.6.4"
