@@ -36,6 +36,7 @@ setInterval(() => {
 .hero {
   background-image: url("@/assets/image/bg.jpg");
 }
+/* 给文本增加动画效果 */
 .tracking-in-contract-bck {
   animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
