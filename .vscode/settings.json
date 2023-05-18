@@ -8,10 +8,12 @@
     "fortawesome",
     "fullhd",
     "Gitmoji",
+    "nocheck",
     "Parens",
     "rushstack",
     "tada",
     "tailwindcss",
+    "unplugin",
     "VITE",
     "windicss",
     "yangchuran"
@@ -56,4 +58,7 @@
     "**/yarn.lock": true
   },
   "emmet.showSuggestionsAsSnippets": true,
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "vue-router"
+  ]
 }
