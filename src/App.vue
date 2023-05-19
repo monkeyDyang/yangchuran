@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-import navVue from "./components/nav.vue";
+import navbarVue from "./components/navbar.vue";
 import footerVue from "./components/footer.vue";
 </script>
 
 <template>
-  <navVue />
+  <navbarVue />
   <RouterView />
   <footerVue />
 </template>
