@@ -55,7 +55,6 @@
 | Vue VSCode Snippets           | Vue 代码模板                              |
 | Vue Peek                      | 快速跳转到组件、模块定义的文件            |
 | Vite                          | 自动化构建、热更新                        |
-| Prettier                      | 代码格式化工具                            |
 | ESLint                        | 语法规则和代码风格的检查工具              |
 | Code Spell Checker            | 拼写检查                                  |
 | Code Translate                | 翻译                                      |
