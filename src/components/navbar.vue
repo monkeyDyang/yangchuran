@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import themeVue from "./theme.vue";
-import Translate from "./translate.vue";
 </script>
 
 <template>
@@ -19,7 +17,7 @@ import Translate from "./translate.vue";
     <div class="navbar-end">
       <ul class="menu menu-horizontal px-1">
         <div tabindex="0" class="btn gap-1 normal-case btn-ghost">
-          <themeVue />
+          <Theme />
         </div>
         <div tabindex="0" class="btn btn-ghost gap-1 normal-case">
           <Translate />
