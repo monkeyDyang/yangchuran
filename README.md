@@ -7,7 +7,15 @@
 	<a href="https://github.com/monkeyDyang/yangchuran"><img src="https://img.shields.io/github/last-commit/monkeyDyang/yangchuran?logo=github"></a>
 </p>
 
-# 🌵 目录结构
+## ⭐ Core Libraries Used
+|Name|Version|
+|--|--|
+|vue|^3.3.1|
+|vue-router|^4.2.0|
+|daisyui|^2.51.6|
+|less|^4.1.3|
+
+## 🌵 Directory Structure
 
 ```
 ├── public
@@ -34,7 +42,7 @@
 
 ```
 
-# 📦 项目下载和运行
+## 📦 Usage
 
 | 命令                  | 描述                                                      |
 | --------------------- | --------------------------------------------------------- |
@@ -47,7 +55,7 @@
 | `pnpm run type-check` | 类型检查工具                                              |
 | `pnpm run lint`       | 代码检查与自动修复 [ESLint](https://eslint.org/)          |
 
-# 🧩 VS Code 插件
+## 🧩 VS Code Plugin
 
 | 名称                          | 功能                                      |
 | ----------------------------- | ----------------------------------------- |
@@ -62,7 +70,7 @@
 | Gitmoji                       | VSCode 中用于 Git 提交信息的 Gitmoji 工具 |
 | Tailwind CSS IntelliSense     | TailwindCSS 语法支持                      |
 
-# 😁 Commit Emoji
+## 😁 Commit Emoji
 
 |         emoji          | emoji代码                    | commit 说明           |
 | :--------------------: | ---------------------------- | --------------------- |
