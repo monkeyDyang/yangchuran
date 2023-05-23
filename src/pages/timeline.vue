@@ -20,9 +20,9 @@ export default {
           <Icon icon="streamline-emojis:baby-bottle" />
         </div>
         <!-- Horizontal line -->
-        <div class="relative left-1/2 w-24 h-1 bg-primary z-0" />
+        <div class="relative left-1/2 w-1/6 h-1 bg-primary z-0" />
         <!-- Card -->
-        <div class="relative left-1/2 card w-96 bg-primary shadow-xl">
+        <div class="relative left-1/2 card w-1/4 bg-primary shadow-xl">
           <!-- Image -->
           <figure>
             <img src="../assets/image/bg.jpg" alt="Background image">
@@ -49,9 +49,9 @@ export default {
           <Icon icon="streamline-emojis:baby-1" />
         </div>
         <!-- Horizontal line -->
-        <div class="relative right-1/2 w-24 h-1 bg-secondary z-0" />
+        <div class="relative right-1/2 w-1/6 h-1 bg-secondary z-0" />
         <!-- Card -->
-        <div class="relative right-1/2 card w-96 bg-secondary shadow-xl">
+        <div class="relative right-1/2 card w-1/4 bg-secondary shadow-xl">
           <!-- Image -->
           <figure>
             <img src="../assets/image/0001.jpg" alt="Image 0001">
