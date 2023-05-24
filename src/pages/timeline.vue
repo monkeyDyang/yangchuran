@@ -25,7 +25,7 @@ export default {
         <div class="relative left-1/2 card w-1/4 bg-primary shadow-xl">
           <!-- Image -->
           <figure>
-            <img src="../assets/image/bg.jpg" alt="Background image">
+            <img src="../assets/image/0001.jpg" alt="Image 0001">
           </figure>
           <!-- Content -->
           <div class="card-body">
@@ -54,7 +54,7 @@ export default {
         <div class="relative right-1/2 card w-1/4 bg-secondary shadow-xl">
           <!-- Image -->
           <figure>
-            <img src="../assets/image/0001.jpg" alt="Image 0001">
+            <img src="../assets/image/0002.jpg" alt="Image 0002">
           </figure>
           <!-- Content -->
           <div class="card-body">
