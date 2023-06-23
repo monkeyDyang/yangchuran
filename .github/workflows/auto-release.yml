@@ -54,12 +54,12 @@ jobs:
         with:
           source: "dist/*"
           # SSH address  服务器地址
-          host: ${{ env.REMOTE_HOST }}
+          host: ${{ secrets.REMOTE_HOST }}
           # Remote dir path  服务器下部署文件存放路径
-          target: ${{ env.REMOTE_PATH }}
+          target: ${{ secrets.REMOTE_PATH }}
           # SSH Port  服务器端口
           port: 22
           # SSH User name   用户名
-          username: ${{ env.USER_NAME }}
+          username: ${{ secrets.USER_NAME }}
           # key  密匙
-          key: ${{ env.SSH_KEY }}
+          key: ${{ secrets.SSH_KEY }}
