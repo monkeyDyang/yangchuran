@@ -12,7 +12,7 @@
 |--|--|
 |vue|^3.3.4|
 |vue-router|^4.2.2|
-|daisyui|^3.1.0|
+|daisyui|^3.1.6|
 |less|^4.1.3|
 
 ## 🌵 Directory Structure
