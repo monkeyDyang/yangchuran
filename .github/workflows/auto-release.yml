@@ -20,12 +20,6 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    env:
-      REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-      REMOTE_PATH: ${{ secrets.REMOTE_PATH }}
-      SSH_KEY: ${{ secrets.SSH_KEY }}
-      USER_NAME: ${{ secrets.USER_NAME }}
-
     #关键配置
     steps:
       - name: Checkout
@@ -62,4 +56,5 @@ jobs:
           # SSH User name   用户名
           username: ${{ secrets.USER_NAME }}
           # key  密匙
-          key: ${{ secrets.SSH_KEY }}
+          # key: ${{ secrets.SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
