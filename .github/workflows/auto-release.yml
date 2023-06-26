@@ -20,12 +20,6 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    env:
-      REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-      REMOTE_PATH: ${{ secrets.REMOTE_PATH }}
-      SSH_KEY: ${{ secrets.SSH_KEY }}
-      USER_NAME: ${{ secrets.USER_NAME }}
-
     #关键配置
     steps:
       - name: Checkout
@@ -54,12 +48,13 @@ jobs:
         with:
           source: "dist/*"
           # SSH address  服务器地址
-          host: ${{ env.REMOTE_HOST }}
+          host: ${{ secrets.REMOTE_HOST }}
           # Remote dir path  服务器下部署文件存放路径
-          target: ${{ env.REMOTE_PATH }}
+          target: ${{ secrets.REMOTE_PATH }}
           # SSH Port  服务器端口
           port: 22
           # SSH User name   用户名
-          username: ${{ env.USER_NAME }}
+          username: ${{ secrets.USER_NAME }}
           # key  密匙
-          key: ${{ env.SSH_KEY }}
+          # key: ${{ secrets.SSH_KEY }}
+          password: ${{ secrets.PASSWORD }}
