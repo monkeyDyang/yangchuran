@@ -55,6 +55,5 @@ jobs:
           port: 22
           # SSH User name   用户名
           username: ${{ secrets.USER_NAME }}
-          # key  密匙
-          # key: ${{ secrets.SSH_KEY }}
+          # SSH password   密码
           password: ${{ secrets.PASSWORD }}
