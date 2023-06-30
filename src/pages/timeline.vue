@@ -1,9 +1,13 @@
 <script lang="ts">
 import { Icon } from "@iconify/vue";
+import { getAssetsFile } from "@/util/CommonUse";
 
 export default {
   components: {
     Icon,
+  },
+  setup() {
+    return { getAssetsFile };
   },
   data() {
     return {
@@ -14,7 +18,7 @@ export default {
           icon: "streamline-emojis:baby-bottle",
           image: {
             name: "0001.jpg",
-            url: "../src/assets/image/0001.jpg",
+            url: "0001.jpg",
           },
           date: "2022年11月15日",
           description: "出生第 1 天",
@@ -24,7 +28,7 @@ export default {
           icon: "streamline-emojis:baby-1",
           image: {
             name: "0002.jpg",
-            url: "../src/assets/image/0002.jpg",
+            url: "0002.jpg",
           },
           date: "2022年12月15日",
           description: "出生第 30 天",
@@ -34,7 +38,7 @@ export default {
           icon: "streamline-emojis:crown",
           image: {
             name: "bg.jpg",
-            url: "../src/assets/image/bg.jpg",
+            url: "bg.jpg",
           },
           date: "2023年1月15日",
           description: "出生第 60 天",
@@ -65,7 +69,7 @@ export default {
           <div class="relative card w-1/4 shadow-xl bg-primary" :class="item.id % 2 === 0 ? 'right-1/2' : 'left-1/2'">
             <!-- Image -->
             <figure>
-              <img :src="item.image?.url" :alt="item.image?.name">
+              <img :src="getAssetsFile(item.image?.url)" :alt="item.image?.name">
             </figure>
             <!-- description -->
             <div class="card-body">

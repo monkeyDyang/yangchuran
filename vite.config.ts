@@ -1,3 +1,4 @@
+import path from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
@@ -16,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": "/src",
+      "@assets": path.join(__dirname, "src/assets"),
     },
   },
   server: {
