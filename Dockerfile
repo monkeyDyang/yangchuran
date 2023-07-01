@@ -1,12 +1,10 @@
-FROM --platform=$BUILDPLATFORM node:19 AS dev-envs
+FROM nginx:latest
 
-COPY . .
+# 设置工作目录
+WORKDIR /usr/share/nginx/html
 
-RUN apt-get update && apt-get install -y git
-RUN yarn global add @vue/cli
-RUN yarn install
-ENV HOST=0.0.0.0
+# 将当前目录下的文件拷贝到容器中
+COPY ./dist .
 
-# install Docker tools (cli, buildx, compose)
-COPY --from=gloursdocker/docker / /
-CMD ["yarn", "run", "serve"]
+# 覆盖nginx配置文件
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
