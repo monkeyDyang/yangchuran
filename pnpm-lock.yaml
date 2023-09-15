@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.5.0
     version: 1.5.0
   daisyui:
-    specifier: ^3.7.3
-    version: 3.7.3
+    specifier: ^3.7.4
+    version: 3.7.4
   less:
     specifier: ^4.2.0
     version: 4.2.0
@@ -1172,8 +1172,8 @@ packages:
   /csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  /daisyui@3.7.3:
-    resolution: {integrity: sha512-gKlz3RwfaukZxf8nQZsDAZ7quUSi7F8HjGGB34tkHruvfQB9cgVDQsmqUqSQtkAJYvzbrg/3dLUa9+5jF4iC1A==}
+  /daisyui@3.7.4:
+    resolution: {integrity: sha512-hAgTomIK8RDQ/RLH9Z2NxZiNVAO40w08FlhgYS/8CTFF+wggeHeNJ0qNBHWAJJzhjD8UU2u4PZ4nc4r9rwfTLw==}
     engines: {node: '>=16.9.0'}
     dependencies:
       colord: 2.9.3
@@ -1698,7 +1698,7 @@ packages:
       eslint: 8.49.0
       eslint-import-resolver-node: 0.3.7
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.7.0)(eslint-import-resolver-node@0.3.7)(eslint@8.49.0)
-      get-tsconfig: 4.6.2
+      get-tsconfig: 4.7.0
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
@@ -2149,12 +2149,6 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.2.0
-    dev: true
-
-  /get-tsconfig@4.6.2:
-    resolution: {integrity: sha512-E5XrT4CbbXcXWy+1jChlZmrmCwd5KGx502kDCXJJ7y898TtWW9FwoG5HfOLVRKmlmDGkWN2HM9Ho+/Y8F0sJDg==}
-    dependencies:
-      resolve-pkg-maps: 1.0.0
     dev: true
 
   /get-tsconfig@4.7.0:
