@@ -2,9 +2,9 @@
 </script>
 
 <template>
-  <Navbar />
+  <!-- <Navbar /> -->
   <RouterView />
-  <Footer />
+  <!-- <Footer /> -->
 </template>
 
 <style scoped></style>
