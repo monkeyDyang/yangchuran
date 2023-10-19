@@ -11,9 +11,9 @@
 |Name|Version|
 |--|--|
 |vue|^3.3.4|
-|vue-router|^4.2.4|
-|daisyui|^3.5.1|
-|less|^4.1.3|
+|vue-router|^4.2.5|
+|daisyui|^3.9.3|
+|less|^4.2.0|
 
 ## 🌵 Directory Structure
 
