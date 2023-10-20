@@ -5,13 +5,27 @@
 <template>
   <div class="h-screen">
     <!-- 生日快乐 -->
-    <div class="h-screen bg-fixed bg-cover bg-center">
-      <div>
+    <div class="h-screen bg-fixed bg-cover bg-center bg-[url('@/assets/images/birthday/one-year-old/bg-1.png')]">
+      <!-- 上 -->
+      <div class="min-w-full">
+        <!-- 彩旗 -->
         <img
-          class="slide-in-left max-w-xs absolute left-1/2 top-1/2" src="@/assets/images/birthday/one-year-old/cake.png"
+          class="slide-in-left w-1/2 m-auto" src="@/assets/images/birthday/one-year-old/bunting.png"
           alt=""
         >
       </div>
+      <!-- 左 -->
+      <div>
+        <!-- 蛋糕 -->
+        <img
+          class="slide-in-left w-60 absolute left-1/4 top-1/2" src="@/assets/images/birthday/one-year-old/cake.png"
+          alt=""
+        >
+      </div>
+      <!-- 下 -->
+      <div />
+      <!-- 右 -->
+      <div />
     </div>
     <div class="divider" />
 
