@@ -16,7 +16,7 @@
     "axios": "^1.5.1",
     "daisyui": "^3.9.3",
     "less": "^4.2.0",
-    "vue": "^3.3.4",
+    "vue": "^3.3.6",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
