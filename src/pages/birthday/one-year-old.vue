@@ -10,21 +10,26 @@
       <div class="min-w-full">
         <!-- 彩旗 -->
         <img class="slide-in-top w-2/3 m-auto" src="@/assets/images/birthday/one-year-old/bunting.png" alt="">
+        <!-- 标语 -->
         <img class="slide-in-top h-32 m-auto" src="@/assets/images/birthday/one-year-old/happy-birthday.png" alt="">
       </div>
       <!-- 左 -->
       <div>
         <!-- 气球 -->
         <img
-          class="slide-in-bottom w-20 absolute left-10 top-1/3"
+          class="slide-in-bottom w-20 absolute left-10 top-1/3 transition delay-200"
           src="@/assets/images/birthday/one-year-old/balloon-1.png"
         >
         <!-- 蛋糕 -->
         <img
-          class="slide-in-left w-60 absolute left-1/3 top-1/2" src="@/assets/images/birthday/one-year-old/cake.png"
-          alt=""
+          class="slide-in-left w-60 absolute left-1/2 top-1/2 delay-500"
+          src="@/assets/images/birthday/one-year-old/cake.svg"
         >
-        <img class="w-40 absolute left-60 top-1/2" src="@/assets/images/birthday/one-year-old/rabbit.png">
+        <!-- 兔子 -->
+        <img
+          class="roll-in-right w-40 absolute right-1/4 top-1/2 delay-700"
+          src="@/assets/images/birthday/one-year-old/rabbit.png"
+        >
       </div>
       <!-- 下 -->
       <div />
@@ -81,9 +86,11 @@
   background-image: url('@/assets/images/0002.jpg');
 }
 
+/* 从上滑入 */
 .slide-in-top {
   -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: 0.1s;
 
   @-webkit-keyframes slide-in-top {
     0% {
@@ -115,10 +122,11 @@
 
 }
 
-/* cake slide in left */
+/* 从左滑入 */
 .slide-in-left {
   -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: 0.8s;
 
   @-webkit-keyframes slide-in-left {
     0% {
@@ -150,9 +158,11 @@
 
 }
 
+/* 从下滑入 */
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: 0.5s;
 
   @-webkit-keyframes slide-in-bottom {
     0% {
@@ -181,5 +191,75 @@
       opacity: 1;
     }
   }
+}
+
+/* 从左滚入 */
+.roll-in-left {
+  -webkit-animation: roll-in-left 0.6s ease-out both;
+  animation: roll-in-left 0.6s ease-out both;
+  animation-delay: 1.5s;
+
+  @-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+      transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+      transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+}
+
+.roll-in-right {
+  -webkit-animation: roll-in-right 0.6s ease-out both;
+  animation: roll-in-right 0.6s ease-out both;
+  animation-delay: 1.5s;
+
+  @-webkit-keyframes roll-in-right {
+    0% {
+      -webkit-transform: translateX(800px) rotate(540deg);
+      transform: translateX(800px) rotate(540deg);
+      opacity: 0;
+    }
+
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes roll-in-right {
+    0% {
+      -webkit-transform: translateX(800px) rotate(540deg);
+      transform: translateX(800px) rotate(540deg);
+      opacity: 0;
+    }
+
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+      transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
 }
 </style>

@@ -1,9 +1,9 @@
 // 单元测试配置项，type-check时使用
 {
   "extends": "./tsconfig.app.json",
-  "exclude": [],
   "compilerOptions": {
     "lib": [],
     "types": ["node", "jsdom"]
-  }
+  },
+  "exclude": []
 }
