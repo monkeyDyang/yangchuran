@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^21.1.4
     version: 21.1.4
   '@types/node':
-    specifier: ^20.8.8
-    version: 20.8.8
+    specifier: ^20.8.9
+    version: 20.8.9
   '@vitejs/plugin-vue':
     specifier: ^3.2.0
     version: registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.7)(vue@3.3.6)
@@ -75,7 +75,7 @@ devDependencies:
     version: 0.7.0(vue-router@4.2.5)(vue@3.3.6)
   vite:
     specifier: ^3.2.7
-    version: 3.2.7(@types/node@20.8.8)(less@4.2.0)
+    version: 3.2.7(@types/node@20.8.9)(less@4.2.0)
   vitest:
     specifier: ^0.34.6
     version: 0.34.6(jsdom@22.1.0)(less@4.2.0)
@@ -462,7 +462,7 @@ packages:
   /@types/jsdom@21.1.4:
     resolution: {integrity: sha512-NzAMLEV0KQ4cBaDx3Ls8VfJUElyDUm1xrtYRmcMK0gF8L5xYbujFVaQlJ50yinQ/d47j2rEP1XUzkiYrw4YRFA==}
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@types/tough-cookie': 4.0.2
       parse5: 7.1.2
     dev: true
@@ -477,10 +477,10 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@20.8.8:
-    resolution: {integrity: sha512-YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==}
+  /@types/node@20.8.9:
+    resolution: {integrity: sha512-UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==}
     dependencies:
-      undici-types: 5.25.3
+      undici-types: 5.26.5
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -3814,8 +3814,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types@5.25.3:
-    resolution: {integrity: sha512-Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==}
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
   /unist-util-stringify-position@2.0.3:
@@ -3925,7 +3925,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.34.6(@types/node@20.8.8)(less@4.2.0):
+  /vite-node@0.34.6(@types/node@20.8.9)(less@4.2.0):
     resolution: {integrity: sha512-nlBMJ9x6n7/Amaz6F3zJ97EBwR2FkzhBRxF5e+jE6LA3yi6Wtc2lyTij1OnDMIr34v5g/tVQtsVAzhT0jc5ygA==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -3935,7 +3935,7 @@ packages:
       mlly: 1.4.2
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 3.2.7(@types/node@20.8.8)(less@4.2.0)
+      vite: 3.2.7(@types/node@20.8.9)(less@4.2.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3946,7 +3946,7 @@ packages:
       - terser
     dev: true
 
-  /vite@3.2.7(@types/node@20.8.8)(less@4.2.0):
+  /vite@3.2.7(@types/node@20.8.9)(less@4.2.0):
     resolution: {integrity: sha512-29pdXjk49xAP0QBr0xXqu2s5jiQIXNvE/xwd0vUizYT2Hzqe4BksNNoWllFVXJf4eLZ+UlVQmXfB4lWrc+t18g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3971,7 +3971,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       esbuild: 0.15.18
       less: 4.2.0
       postcss: 8.4.31
@@ -4014,7 +4014,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 20.8.8
+      '@types/node': 20.8.9
       '@vitest/expect': 0.34.6
       '@vitest/runner': 0.34.6
       '@vitest/snapshot': 0.34.6
@@ -4034,8 +4034,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.7.0
-      vite: 3.2.7(@types/node@20.8.8)(less@4.2.0)
-      vite-node: 0.34.6(@types/node@20.8.8)(less@4.2.0)
+      vite: 3.2.7(@types/node@20.8.9)(less@4.2.0)
+      vite-node: 0.34.6(@types/node@20.8.9)(less@4.2.0)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -4561,7 +4561,7 @@ packages:
       '@babel/core': registry.npmmirror.com/@babel/core@7.21.8
       '@babel/plugin-transform-typescript': registry.npmmirror.com/@babel/plugin-transform-typescript@7.21.3(@babel/core@7.21.8)
       '@vue/babel-plugin-jsx': registry.npmmirror.com/@vue/babel-plugin-jsx@1.1.1(@babel/core@7.21.8)
-      vite: 3.2.7(@types/node@20.8.8)(less@4.2.0)
+      vite: 3.2.7(@types/node@20.8.9)(less@4.2.0)
       vue: 3.3.6(typescript@5.2.2)
     transitivePeerDependencies:
       - supports-color
@@ -4577,7 +4577,7 @@ packages:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.7(@types/node@20.8.8)(less@4.2.0)
+      vite: 3.2.7(@types/node@20.8.9)(less@4.2.0)
       vue: 3.3.6(typescript@5.2.2)
     dev: true
 
