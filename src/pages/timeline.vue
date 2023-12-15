@@ -43,6 +43,26 @@ export default {
           date: "2023年1月15日",
           description: "出生第 60 天",
         },
+        {
+          id: 4,
+          icon: "streamline-emojis:crown",
+          image: {
+            name: "bg.jpg",
+            url: "bg.jpg",
+          },
+          date: "2023年1月15日",
+          description: "出生第 60 天",
+        },
+        {
+          id: 5,
+          icon: "streamline-emojis:crown",
+          image: {
+            name: "bg.jpg",
+            url: "bg.jpg",
+          },
+          date: "2023年1月15日",
+          description: "出生第 60 天",
+        },
       ],
     };
   },
@@ -52,35 +72,21 @@ export default {
 <template>
   <div class="container mx-auto w-full h-full">
     <div class="relative overflow-hidden py-10 h-full">
-      <div v-for="item in timelineData" :key="item.id">
-        <!-- Timeline -->
-        <div class="relative pb-8 flex items-center w-full timeline" :class="item.id % 2 === 0 ? 'flex-row-reverse' : ''">
-          <!-- Center vertical line -->
-          <div class="absolute left-1/2 h-full border-l-2 border-right border-primary" />
-          <!-- Icon -->
-          <div
-            class="absolute w-8 h-8 -ml-4 order-1 z-20 flex items-center shadow-xl justify-center rounded-full left-1/2 bg-primary"
-          >
-            <Icon :icon="item.icon" />
+      <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <li v-for="item in timelineData" :key="item.id">
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
           </div>
-          <!-- Horizontal line -->
-          <div class="relative w-1/6 h-1 z-0 bg-primary" :class="item.id % 2 === 0 ? 'right-1/2' : 'left-1/2'" />
-          <!-- Card -->
-          <div class="relative card w-1/4 shadow-xl bg-primary" :class="item.id % 2 === 0 ? 'right-1/2' : 'left-1/2'">
-            <!-- Image -->
-            <figure>
+          <div class="timeline-start mb-10" :class="item.id % 2 === 0 ? 'timeline-end md' : 'timeline-start md:text-end'">
+            <time class="font-mono italic">{{item.date}}</time>
+            <div class="text-lg font-black">
               <img :src="getAssetsFile(item.image?.url)" :alt="item.image?.name">
-            </figure>
-            <!-- description -->
-            <div class="card-body">
-              <h2 class="card-date">
-                {{ item.date }}
-              </h2>
-              <p>{{ item.description }}</p>
             </div>
+            {{ item.description }}
           </div>
-        </div>
-      </div>
+          <hr>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
