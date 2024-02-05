@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^2.1.1
     version: registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.15)
   '@vue/test-utils':
-    specifier: ^2.4.3
-    version: 2.4.3(vue@3.4.15)
+    specifier: ^2.4.4
+    version: 2.4.4(vue@3.4.15)
   '@vue/tsconfig':
     specifier: ^0.5.1
     version: 0.5.1
@@ -1221,8 +1221,8 @@ packages:
     resolution: {integrity: sha512-rIwlkkP1n4uKrRzivAKPZIEkHiuwY5mmhMJ2nZKCBLz8lTUlE73rQh4n1OnnMurXt1vcUNyH4ZPfdh8QweTjpQ==}
     dev: true
 
-  /@vue/test-utils@2.4.3(vue@3.4.15):
-    resolution: {integrity: sha512-F4K7mF+ad++VlTrxMJVRnenKSJmO6fkQt2wpRDiKDesQMkfpniGWsqEi/JevxGBo2qEkwwjvTUAoiGJLNx++CA==}
+  /@vue/test-utils@2.4.4(vue@3.4.15):
+    resolution: {integrity: sha512-8jkRxz8pNhClAf4Co4ZrpAoFISdvT3nuSkUlY6Ys6rmTpw3DMWG/X3mw3gQ7QJzgCZO9f+zuE2kW57fi09MW7Q==}
     peerDependencies:
       '@vue/server-renderer': ^3.0.1
       vue: ^3.0.1
