@@ -1,7 +1,7 @@
 {
   "name": "yangchuran",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@8.15.3",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
