@@ -10,7 +10,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "axios": "^1.6.7",
@@ -30,6 +31,8 @@
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.17",
     "commitizen": "^4.3.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.56.0",
     "git-cz": "^4.9.0",
     "jsdom": "^24.0.0",
