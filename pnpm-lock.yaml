@@ -15,11 +15,11 @@ dependencies:
     specifier: ^4.2.0
     version: 4.2.0
   vue:
-    specifier: ^3.4.19
-    version: 3.4.19(typescript@5.3.3)
+    specifier: ^3.4.20
+    version: 3.4.20(typescript@5.3.3)
   vue-router:
     specifier: ^4.3.0
-    version: 4.3.0(vue@3.4.19)
+    version: 4.3.0(vue@3.4.20)
 
 devDependencies:
   '@antfu/eslint-config':
@@ -27,7 +27,7 @@ devDependencies:
     version: 2.6.4(@vue/compiler-sfc@3.4.19)(eslint@8.56.0)(typescript@5.3.3)(vitest@1.3.1)
   '@iconify/vue':
     specifier: ^4.1.1
-    version: registry.npmmirror.com/@iconify/vue@4.1.1(vue@3.4.19)
+    version: registry.npmmirror.com/@iconify/vue@4.1.1(vue@3.4.20)
   '@types/jsdom':
     specifier: ^21.1.6
     version: 21.1.6
@@ -36,13 +36,13 @@ devDependencies:
     version: 20.11.20
   '@vitejs/plugin-vue':
     specifier: ^3.2.0
-    version: registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.19)
+    version: registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.20)
   '@vitejs/plugin-vue-jsx':
     specifier: ^2.1.1
-    version: registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.19)
+    version: registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.20)
   '@vue/test-utils':
     specifier: ^2.4.4
-    version: 2.4.4(vue@3.4.19)
+    version: 2.4.4(vue@3.4.20)
   '@vue/tsconfig':
     specifier: ^0.5.1
     version: 0.5.1
@@ -81,10 +81,10 @@ devDependencies:
     version: 5.3.3
   unplugin-vue-components:
     specifier: ^0.26.0
-    version: 0.26.0(vue@3.4.19)
+    version: 0.26.0(vue@3.4.20)
   unplugin-vue-router:
     specifier: ^0.8.3
-    version: 0.8.3(vue-router@4.3.0)(vue@3.4.19)
+    version: 0.8.3(vue-router@4.3.0)(vue@3.4.20)
   vite:
     specifier: ^3.2.8
     version: 3.2.8(@types/node@20.11.20)(less@4.2.0)
@@ -205,11 +205,6 @@ packages:
       '@babel/highlight': 7.18.6
     dev: true
 
-  /@babel/helper-string-parser@7.22.5:
-    resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-string-parser@7.23.4:
     resolution: {integrity: sha512-803gmbQdqwdf4olxrX4AJyFBV/RTr3rSmOj0rKwesmzlfhYNDEs+/iOcznzpNWlJlIlTJC2QfPFcHB6DlzdVLQ==}
     engines: {node: '>=6.9.0'}
@@ -227,29 +222,12 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@babel/parser@7.23.6:
-    resolution: {integrity: sha512-Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.22.19
-    dev: true
-
   /@babel/parser@7.23.9:
     resolution: {integrity: sha512-9tcKgqKbs3xGJ+NtKF2ndOBBLVwPjl1SHxPQkd36r3Dlirw3xWUeGaTbqr7uGZcTaxkVNwc+03SVP7aCdWrTlA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
       '@babel/types': 7.23.9
-
-  /@babel/types@7.22.19:
-    resolution: {integrity: sha512-P7LAw/LbojPzkgp5oznjE6tQEIWbp4PkkfrZDINTro9zgBRtI324/EYsiSI7lhPbpIQ+DCeR2NNmMWANGGfZsg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.22.5
-      '@babel/helper-validator-identifier': 7.22.20
-      to-fast-properties: 2.0.0
-    dev: true
 
   /@babel/types@7.23.9:
     resolution: {integrity: sha512-dQjSq/7HaSjRM43FFGnv5keM2HsxpmyV1PfaSVm0nzzjwwTmjOe6J4bC8e3+pTEIgHaHj+1ZlLThRJ2auc/w1Q==}
@@ -1183,7 +1161,7 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@vue-macros/common@1.10.1(vue@3.4.19):
+  /@vue-macros/common@1.10.1(vue@3.4.20):
     resolution: {integrity: sha512-uftSpfwdwitcQT2lM8aVxcfe5rKQBzC9jMrtJM5sG4hEuFyfIvnJihpPpnaWxY+X4p64k+YYXtBFv+1O5Bq3dg==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
@@ -1198,7 +1176,7 @@ packages:
       ast-kit: 0.11.3
       local-pkg: 0.5.0
       magic-string-ast: 0.3.0
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1211,12 +1189,29 @@ packages:
       entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.0.2
+    dev: true
+
+  /@vue/compiler-core@3.4.20:
+    resolution: {integrity: sha512-l7M+xUuL8hrGtRLkrf+62d9zucAdgqNBTbJ/NufCOIuJQhauhfyAKH9ra/qUctCXcULwmclGAVpvmxjbBO30qg==}
+    dependencies:
+      '@babel/parser': 7.23.9
+      '@vue/shared': 3.4.20
+      entities: 4.5.0
+      estree-walker: 2.0.2
+      source-map-js: 1.0.2
 
   /@vue/compiler-dom@3.4.19:
     resolution: {integrity: sha512-vm6+cogWrshjqEHTzIDCp72DKtea8Ry/QVpQRYoyTIg9k7QZDX6D8+HGURjtmatfgM8xgCFtJJaOlCaRYRK3QA==}
     dependencies:
       '@vue/compiler-core': 3.4.19
       '@vue/shared': 3.4.19
+    dev: true
+
+  /@vue/compiler-dom@3.4.20:
+    resolution: {integrity: sha512-/cSBGL79HFBYgDnqCNKErOav3bPde3n0sJwJM2Z09rXlkiowV/2SG1tgDAiWS1CatS4Cvo0o74e1vNeCK1R3RA==}
+    dependencies:
+      '@vue/compiler-core': 3.4.20
+      '@vue/shared': 3.4.20
 
   /@vue/compiler-sfc@3.4.19:
     resolution: {integrity: sha512-LQ3U4SN0DlvV0xhr1lUsgLCYlwQfUfetyPxkKYu7dkfvx7g3ojrGAkw0AERLOKYXuAGnqFsEuytkdcComei3Yg==}
@@ -1230,12 +1225,33 @@ packages:
       magic-string: 0.30.7
       postcss: 8.4.35
       source-map-js: 1.0.2
+    dev: true
+
+  /@vue/compiler-sfc@3.4.20:
+    resolution: {integrity: sha512-nPuTZz0yxTPzjyYe+9nQQsFYImcz/57UX8N3jyhl5oIUUs2jqqAMaULsAlJwve3qNYfjQzq0bwy3pqJrN9ecZw==}
+    dependencies:
+      '@babel/parser': 7.23.9
+      '@vue/compiler-core': 3.4.20
+      '@vue/compiler-dom': 3.4.20
+      '@vue/compiler-ssr': 3.4.20
+      '@vue/shared': 3.4.20
+      estree-walker: 2.0.2
+      magic-string: 0.30.7
+      postcss: 8.4.35
+      source-map-js: 1.0.2
 
   /@vue/compiler-ssr@3.4.19:
     resolution: {integrity: sha512-P0PLKC4+u4OMJ8sinba/5Z/iDT84uMRRlrWzadgLA69opCpI1gG4N55qDSC+dedwq2fJtzmGald05LWR5TFfLw==}
     dependencies:
       '@vue/compiler-dom': 3.4.19
       '@vue/shared': 3.4.19
+    dev: true
+
+  /@vue/compiler-ssr@3.4.20:
+    resolution: {integrity: sha512-b3gFQPiHLvI12C56otzBPpQhZ5kgkJ5RMv/zpLjLC2BIFwX5GktDqYQ7xg0Q2grP6uFI8al3beVKvAVxFtXmIg==}
+    dependencies:
+      '@vue/compiler-dom': 3.4.20
+      '@vue/shared': 3.4.20
 
   /@vue/devtools-api@6.6.1:
     resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
@@ -1260,37 +1276,41 @@ packages:
       vue-template-compiler: 2.7.14
     dev: true
 
-  /@vue/reactivity@3.4.19:
-    resolution: {integrity: sha512-+VcwrQvLZgEclGZRHx4O2XhyEEcKaBi50WbxdVItEezUf4fqRh838Ix6amWTdX0CNb/b6t3Gkz3eOebfcSt+UA==}
+  /@vue/reactivity@3.4.20:
+    resolution: {integrity: sha512-P5LJcxUkG6inlHr6MHVA4AVFAmRYJQ7ONGWJILNjMjoYuEXFhYviSCb9BEMyszSG/1kWCZbtWQlKSLasFRpThw==}
     dependencies:
-      '@vue/shared': 3.4.19
+      '@vue/shared': 3.4.20
 
-  /@vue/runtime-core@3.4.19:
-    resolution: {integrity: sha512-/Z3tFwOrerJB/oyutmJGoYbuoadphDcJAd5jOuJE86THNZji9pYjZroQ2NFsZkTxOq0GJbb+s2kxTYToDiyZzw==}
+  /@vue/runtime-core@3.4.20:
+    resolution: {integrity: sha512-MPvsQpGAxoBqLHjqopt4YPtUYBpq0K6oAWDTwIR1CTNZ3y9O/J2ZVh+i2JpxKNYwANJBiZ20O99NE20uisB7xw==}
     dependencies:
-      '@vue/reactivity': 3.4.19
-      '@vue/shared': 3.4.19
+      '@vue/reactivity': 3.4.20
+      '@vue/shared': 3.4.20
 
-  /@vue/runtime-dom@3.4.19:
-    resolution: {integrity: sha512-IyZzIDqfNCF0OyZOauL+F4yzjMPN2rPd8nhqPP2N1lBn3kYqJpPHHru+83Rkvo2lHz5mW+rEeIMEF9qY3PB94g==}
+  /@vue/runtime-dom@3.4.20:
+    resolution: {integrity: sha512-OkbPVP69H+8m74543zMAAx/LIkajxufYyow41gc0s5iF0uplT5uTQ4llDYu1GeJZEI8wjL5ueiPQruk4qwOMmA==}
     dependencies:
-      '@vue/runtime-core': 3.4.19
-      '@vue/shared': 3.4.19
+      '@vue/runtime-core': 3.4.20
+      '@vue/shared': 3.4.20
       csstype: 3.1.3
 
-  /@vue/server-renderer@3.4.19(vue@3.4.19):
-    resolution: {integrity: sha512-eAj2p0c429RZyyhtMRnttjcSToch+kTWxFPHlzGMkR28ZbF1PDlTcmGmlDxccBuqNd9iOQ7xPRPAGgPVj+YpQw==}
+  /@vue/server-renderer@3.4.20(vue@3.4.20):
+    resolution: {integrity: sha512-w3VH2GuwxQHA6pJo/HCV22OfVC8Mw4oeHQM+vKeqtRK0OPE1Wilnh+P/SDVGGxPjJsGmyfphi0dbw8UKZQJH9w==}
     peerDependencies:
-      vue: 3.4.19
+      vue: 3.4.20
     dependencies:
-      '@vue/compiler-ssr': 3.4.19
-      '@vue/shared': 3.4.19
-      vue: 3.4.19(typescript@5.3.3)
+      '@vue/compiler-ssr': 3.4.20
+      '@vue/shared': 3.4.20
+      vue: 3.4.20(typescript@5.3.3)
 
   /@vue/shared@3.4.19:
     resolution: {integrity: sha512-/KliRRHMF6LoiThEy+4c1Z4KB/gbPrGjWwJR+crg2otgrf/egKzRaCPvJ51S5oetgsgXLfc4Rm5ZgrKHZrtMSw==}
+    dev: true
 
-  /@vue/test-utils@2.4.4(vue@3.4.19):
+  /@vue/shared@3.4.20:
+    resolution: {integrity: sha512-KTEngal0aiUvNJ6I1Chk5Ew5XqChsFsxP4GKAYXWb99zKJWjNU72p2FWEOmZWHxHcqtniOJsgnpd3zizdpfEag==}
+
+  /@vue/test-utils@2.4.4(vue@3.4.20):
     resolution: {integrity: sha512-8jkRxz8pNhClAf4Co4ZrpAoFISdvT3nuSkUlY6Ys6rmTpw3DMWG/X3mw3gQ7QJzgCZO9f+zuE2kW57fi09MW7Q==}
     peerDependencies:
       '@vue/server-renderer': ^3.0.1
@@ -1300,7 +1320,7 @@ packages:
         optional: true
     dependencies:
       js-beautify: 1.14.9
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
       vue-component-type-helpers: 1.8.22
     dev: true
 
@@ -3703,6 +3723,7 @@ packages:
 
   /is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
+    requiresBuild: true
     dev: true
 
   /is-bigint@1.0.4:
@@ -3981,6 +4002,7 @@ packages:
 
   /json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
+    requiresBuild: true
     dev: true
 
   /json-parse-even-better-errors@3.0.1:
@@ -5662,7 +5684,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unplugin-vue-components@0.26.0(vue@3.4.19):
+  /unplugin-vue-components@0.26.0(vue@3.4.20):
     resolution: {integrity: sha512-s7IdPDlnOvPamjunVxw8kNgKNK8A5KM1YpK5j/p97jEKTjlPNrA0nZBiSfAKKlK1gWZuyWXlKL5dk3EDw874LQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -5685,13 +5707,13 @@ packages:
       minimatch: 9.0.3
       resolve: 1.22.8
       unplugin: 1.5.0
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.8.3(vue-router@4.3.0)(vue@3.4.19):
+  /unplugin-vue-router@0.8.3(vue-router@4.3.0)(vue@3.4.20):
     resolution: {integrity: sha512-I0HXIGUrdzwIKQ9YEyI3HEMpHsWs/V7KaEqcwXYREABhrRT6Hfmgz/em+2CgbbJ5IFMiWLBYIJ2+6fZGKuJluw==}
     peerDependencies:
       vue-router: ^4.3.0
@@ -5701,7 +5723,7 @@ packages:
     dependencies:
       '@babel/types': 7.23.9
       '@rollup/pluginutils': 5.1.0
-      '@vue-macros/common': 1.10.1(vue@3.4.19)
+      '@vue-macros/common': 1.10.1(vue@3.4.20)
       ast-walker-scope: 0.6.0
       chokidar: 3.6.0
       fast-glob: 3.3.2
@@ -5711,7 +5733,7 @@ packages:
       pathe: 1.1.2
       scule: 1.3.0
       unplugin: 1.7.1
-      vue-router: 4.3.0(vue@3.4.19)
+      vue-router: 4.3.0(vue@3.4.20)
       yaml: 2.3.4
     transitivePeerDependencies:
       - rollup
@@ -5943,13 +5965,13 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@4.3.0(vue@3.4.19):
+  /vue-router@4.3.0(vue@3.4.20):
     resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.6.1
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
 
   /vue-template-compiler@2.7.14:
     resolution: {integrity: sha512-zyA5Y3ArvVG0NacJDkkzJuPQDF8RFeRlzV2vLeSnhSpieO6LK2OVbdLPi5MPPs09Ii+gMO8nY4S3iKQxBxDmWQ==}
@@ -5970,19 +5992,19 @@ packages:
       typescript: 5.3.3
     dev: true
 
-  /vue@3.4.19(typescript@5.3.3):
-    resolution: {integrity: sha512-W/7Fc9KUkajFU8dBeDluM4sRGc/aa4YJnOYck8dkjgZoXtVsn3OeTGni66FV1l3+nvPA7VBFYtPioaGKUmEADw==}
+  /vue@3.4.20(typescript@5.3.3):
+    resolution: {integrity: sha512-xF4zDKXp67NjgORFX/HOuaiaKYjgxkaToK0KWglFQEYlCw9AqgBlj1yu5xa6YaRek47w2IGiuvpvrGg/XuQFCw==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@vue/compiler-dom': 3.4.19
-      '@vue/compiler-sfc': 3.4.19
-      '@vue/runtime-dom': 3.4.19
-      '@vue/server-renderer': 3.4.19(vue@3.4.19)
-      '@vue/shared': 3.4.19
+      '@vue/compiler-dom': 3.4.20
+      '@vue/compiler-sfc': 3.4.20
+      '@vue/runtime-dom': 3.4.20
+      '@vue/server-renderer': 3.4.20(vue@3.4.20)
+      '@vue/shared': 3.4.20
       typescript: 5.3.3
 
   /w3c-xmlserializer@5.0.0:
@@ -6219,10 +6241,10 @@ packages:
       '@babel/helper-compilation-targets': registry.npmmirror.com/@babel/helper-compilation-targets@7.21.5(@babel/core@7.21.8)
       '@babel/helper-module-transforms': registry.npmmirror.com/@babel/helper-module-transforms@7.21.5
       '@babel/helpers': registry.npmmirror.com/@babel/helpers@7.21.5
-      '@babel/parser': 7.23.6
+      '@babel/parser': 7.23.9
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
       '@babel/traverse': registry.npmmirror.com/@babel/traverse@7.21.5
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
       convert-source-map: registry.npmmirror.com/convert-source-map@1.9.0
       debug: 4.3.4
       gensync: registry.npmmirror.com/gensync@1.0.0-beta.2
@@ -6238,7 +6260,7 @@ packages:
     version: 7.21.5
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
       jsesc: 2.5.2
@@ -6250,7 +6272,7 @@ packages:
     version: 7.18.6
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-compilation-targets@7.21.5(@babel/core@7.21.8):
@@ -6307,7 +6329,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-hoist-variables@7.18.6:
@@ -6316,7 +6338,7 @@ packages:
     version: 7.18.6
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-member-expression-to-functions@7.21.5:
@@ -6325,7 +6347,7 @@ packages:
     version: 7.21.5
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-module-imports@7.21.4:
@@ -6334,7 +6356,7 @@ packages:
     version: 7.21.4
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-module-transforms@7.21.5:
@@ -6350,7 +6372,7 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
       '@babel/traverse': registry.npmmirror.com/@babel/traverse@7.21.5
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6361,7 +6383,7 @@ packages:
     version: 7.18.6
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-plugin-utils@7.21.5:
@@ -6382,7 +6404,7 @@ packages:
       '@babel/helper-optimise-call-expression': registry.npmmirror.com/@babel/helper-optimise-call-expression@7.18.6
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
       '@babel/traverse': registry.npmmirror.com/@babel/traverse@7.21.5
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6393,7 +6415,7 @@ packages:
     version: 7.21.5
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-skip-transparent-expression-wrappers@7.20.0:
@@ -6402,7 +6424,7 @@ packages:
     version: 7.20.0
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-split-export-declaration@7.18.6:
@@ -6411,7 +6433,7 @@ packages:
     version: 7.18.6
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/helper-validator-option@7.21.0:
@@ -6429,7 +6451,7 @@ packages:
     dependencies:
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
       '@babel/traverse': registry.npmmirror.com/@babel/traverse@7.21.5
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6486,7 +6508,7 @@ packages:
     dependencies:
       '@babel/code-frame': 7.21.4
       '@babel/parser': 7.23.9
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
     dev: true
 
   registry.npmmirror.com/@babel/traverse@7.21.5:
@@ -6502,7 +6524,7 @@ packages:
       '@babel/helper-hoist-variables': registry.npmmirror.com/@babel/helper-hoist-variables@7.18.6
       '@babel/helper-split-export-declaration': registry.npmmirror.com/@babel/helper-split-export-declaration@7.18.6
       '@babel/parser': 7.23.9
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -6515,7 +6537,7 @@ packages:
     version: 2.0.0
     dev: true
 
-  registry.npmmirror.com/@iconify/vue@4.1.1(vue@3.4.19):
+  registry.npmmirror.com/@iconify/vue@4.1.1(vue@3.4.20):
     resolution: {integrity: sha512-RL85Bm/DAe8y6rT6pux7D2FJSiUEM/TPfyK7GrbAOfTSwrhvwJW+S5yijdGcmtXouA8MtuH9C7l4hiSE4mLMjg==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@iconify/vue/-/vue-4.1.1.tgz}
     id: registry.npmmirror.com/@iconify/vue/4.1.1
     name: '@iconify/vue'
@@ -6524,10 +6546,10 @@ packages:
       vue: '>=3'
     dependencies:
       '@iconify/types': registry.npmmirror.com/@iconify/types@2.0.0
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
     dev: true
 
-  registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.19):
+  registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.20):
     resolution: {integrity: sha512-JgDhxstQlwnHBvZ1BSnU5mbmyQ14/t5JhREc6YH5kWyu2QdAAOsLF6xgHoIWarj8tddaiwFrNzLbWJPudpXKYA==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-2.1.1.tgz}
     id: registry.npmmirror.com/@vitejs/plugin-vue-jsx/2.1.1
     name: '@vitejs/plugin-vue-jsx'
@@ -6541,12 +6563,12 @@ packages:
       '@babel/plugin-transform-typescript': registry.npmmirror.com/@babel/plugin-transform-typescript@7.21.3(@babel/core@7.21.8)
       '@vue/babel-plugin-jsx': registry.npmmirror.com/@vue/babel-plugin-jsx@1.1.1(@babel/core@7.21.8)
       vite: 3.2.8(@types/node@20.11.20)(less@4.2.0)
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.19):
+  registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.20):
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-3.2.0.tgz}
     id: registry.npmmirror.com/@vitejs/plugin-vue/3.2.0
     name: '@vitejs/plugin-vue'
@@ -6557,7 +6579,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 3.2.8(@types/node@20.11.20)(less@4.2.0)
-      vue: 3.4.19(typescript@5.3.3)
+      vue: 3.4.20(typescript@5.3.3)
     dev: true
 
   registry.npmmirror.com/@vue/babel-helper-vue-transform-on@1.0.2:
@@ -6576,7 +6598,7 @@ packages:
       '@babel/plugin-syntax-jsx': registry.npmmirror.com/@babel/plugin-syntax-jsx@7.21.4(@babel/core@7.21.8)
       '@babel/template': registry.npmmirror.com/@babel/template@7.20.7
       '@babel/traverse': registry.npmmirror.com/@babel/traverse@7.21.5
-      '@babel/types': 7.22.19
+      '@babel/types': 7.23.9
       '@vue/babel-helper-vue-transform-on': registry.npmmirror.com/@vue/babel-helper-vue-transform-on@1.0.2
       camelcase: registry.npmmirror.com/camelcase@6.3.0
       html-tags: registry.npmmirror.com/html-tags@3.3.1
