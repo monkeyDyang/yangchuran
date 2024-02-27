@@ -8,7 +8,7 @@ name: auto-release
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [main, issue93]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 8.6.2
+          version: 8.15.3
           run_install: false
 
       - name: install deps
