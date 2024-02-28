@@ -83,8 +83,8 @@ devDependencies:
     specifier: ^0.26.0
     version: 0.26.0(vue@3.4.20)
   unplugin-vue-router:
-    specifier: ^0.8.3
-    version: 0.8.3(vue-router@4.3.0)(vue@3.4.20)
+    specifier: ^0.8.4
+    version: 0.8.4(vue-router@4.3.0)(vue@3.4.19)
   vite:
     specifier: ^3.2.8
     version: 3.2.8(@types/node@20.11.20)(less@4.2.0)
@@ -220,6 +220,14 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
+    dev: true
+
+  /@babel/parser@7.23.6:
+    resolution: {integrity: sha512-Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': 7.23.9
     dev: true
 
   /@babel/parser@7.23.9:
@@ -1116,14 +1124,14 @@ packages:
     dependencies:
       '@vitest/utils': 1.3.1
       p-limit: 5.0.0
-      pathe: 1.1.1
+      pathe: 1.1.2
     dev: true
 
   /@vitest/snapshot@1.3.1:
     resolution: {integrity: sha512-EF++BZbt6RZmOlE3SuTPu/NfwBF6q4ABS37HHXzs2LUVPBLx2QoY/K0fKpRChSo8eLiuxcbCVfqKgx/dplCDuQ==}
     dependencies:
       magic-string: 0.30.7
-      pathe: 1.1.1
+      pathe: 1.1.2
       pretty-format: 29.7.0
     dev: true
 
@@ -3472,7 +3480,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       ignore: 5.2.4
       merge2: 1.4.1
       slash: 3.0.0
@@ -4813,7 +4821,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.35
-      yaml: 2.3.2
+      yaml: 2.3.4
     dev: true
 
   /postcss-nested@6.0.1(postcss@8.4.35):
@@ -5713,8 +5721,9 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.8.3(vue-router@4.3.0)(vue@3.4.20):
-    resolution: {integrity: sha512-I0HXIGUrdzwIKQ9YEyI3HEMpHsWs/V7KaEqcwXYREABhrRT6Hfmgz/em+2CgbbJ5IFMiWLBYIJ2+6fZGKuJluw==}
+  /unplugin-vue-router@0.8.4(vue-router@4.3.0)(vue@3.4.19):
+    resolution: {integrity: sha512-BdXzOEh7ta6v7qmTxkNcBqjeYBQN2LR34AqvSDLsfjlGd0CgV4qhue3T5btHiZK2EGtsdRb7i9f9CpxMLSnXzw==}
+
     peerDependencies:
       vue-router: ^4.3.0
     peerDependenciesMeta:
@@ -5744,7 +5753,7 @@ packages:
     resolution: {integrity: sha512-9ZdRwbh/4gcm1JTOkp9lAkIDrtOyOxgHmY7cjuwI8L/2RTikMcVG25GsZwNAgRuap3iDw2jeq7eoqtAsz5rW3A==}
     dependencies:
       acorn: 8.11.3
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
     dev: true
@@ -5800,7 +5809,7 @@ packages:
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
-      pathe: 1.1.1
+      pathe: 1.1.2
       picocolors: 1.0.0
       vite: 5.0.5(@types/node@20.11.20)(less@4.2.0)
     transitivePeerDependencies:
@@ -6171,12 +6180,7 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
-      yaml: 2.3.2
-    dev: true
-
-  /yaml@2.3.2:
-    resolution: {integrity: sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==}
-    engines: {node: '>= 14'}
+      yaml: 2.3.4
     dev: true
 
   /yaml@2.3.4:
