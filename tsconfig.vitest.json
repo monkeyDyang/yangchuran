@@ -3,7 +3,7 @@
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
     "lib": [],
-    "types": ["node", "jsdom"]
+    "types": ["node", "jsdom","unplugin-vue-router/client"]
   },
   "exclude": []
 }
