@@ -14,7 +14,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
-    "axios": "^1.6.7",
+    "axios": "^1.6.8",
     "daisyui": "^4.7.3",
     "less": "^4.2.0",
     "vue": "^3.4.21",
