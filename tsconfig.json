@@ -1,11 +1,28 @@
 {
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
+  "extends": "@vue/tsconfig",
+  "compilerOptions": {
+    "composite": true,
+    "moduleResolution": "Bundler",
+    "types": [
+      "unplugin-vue-router/client",
+      "node"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
     },
-    {
-      "path": "./tsconfig.app.json"
-    }
+    "sourceMap": true
+  },
+  "include": [
+    "vite.config.*",
+    "env.d.ts",
+    "src/typed-router.d.ts",
+    "src/**/*",
+    "src/**/*.vue"
   ],
-  "files": []
+  "exclude": [
+    "src/**/__tests__/*"
+  ],
 }

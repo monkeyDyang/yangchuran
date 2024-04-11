@@ -20,7 +20,12 @@
     "windicss",
     "yangchuran"
   ],
-  "cSpell.ignoreRegExpList": ["\\\\node_modules\\\\", "\\\\dist\\\\", "\\\\test\\\\", "\\\\.vscode\\\\"],
+  "cSpell.ignoreRegExpList": [
+    "\\\\node_modules\\\\",
+    "\\\\dist\\\\",
+    "\\\\test\\\\",
+    "\\\\.vscode\\\\"
+  ],
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -61,6 +66,7 @@
   },
   "emmet.showSuggestionsAsSnippets": true,
   "typescript.preferences.autoImportFileExcludePatterns": [
-    "vue-router"
-  ]
+    "vue-router$"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
 }
