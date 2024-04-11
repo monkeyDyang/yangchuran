@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import vueJsx from "@vitejs/plugin-vue-jsx";
 import VueRouter from "unplugin-vue-router/vite";
 import Components from "unplugin-vue-components/vite";
 
@@ -11,7 +10,6 @@ export default defineConfig({
     }),
     // ⚠️ Vue must be placed after VueRouter()
     vue(),
-    vueJsx(),
     Components({ dts: "src/components.d.ts" })],
   resolve: {
     alias: {

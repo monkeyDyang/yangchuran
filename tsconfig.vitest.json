@@ -1,9 +1,0 @@
-// 单元测试配置项，type-check时使用
-{
-  "extends": "./tsconfig.app.json",
-  "compilerOptions": {
-    "lib": [],
-    "types": ["node", "jsdom","unplugin-vue-router/client"]
-  },
-  "exclude": []
-}
