@@ -36,10 +36,10 @@ devDependencies:
     version: 20.11.30
   '@vitejs/plugin-vue':
     specifier: ^3.2.0
-    version: registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.21)
+    version: registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.10)(vue@3.4.21)
   '@vitejs/plugin-vue-jsx':
     specifier: ^2.1.1
-    version: registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.21)
+    version: registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.10)(vue@3.4.21)
   '@vue/test-utils':
     specifier: ^2.4.5
     version: 2.4.5
@@ -86,8 +86,8 @@ devDependencies:
     specifier: ^0.8.5
     version: 0.8.5(vue-router@4.3.0)(vue@3.4.21)
   vite:
-    specifier: ^3.2.8
-    version: 3.2.8(@types/node@20.11.30)(less@4.2.0)
+    specifier: ^3.2.10
+    version: 3.2.10(@types/node@20.11.30)(less@4.2.0)
   vitest:
     specifier: ^1.4.0
     version: 1.4.0(@types/node@20.11.30)(jsdom@24.0.0)(less@4.2.0)
@@ -1698,6 +1698,7 @@ packages:
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
 
   /camelcase-css@2.0.1:
@@ -4670,6 +4671,7 @@ packages:
   /parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dependencies:
       callsites: 3.1.0
     dev: true
@@ -5063,6 +5065,7 @@ packages:
   /resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
 
   /resolve-from@5.0.0:
@@ -5887,8 +5890,8 @@ packages:
       - terser
     dev: true
 
-  /vite@3.2.8(@types/node@20.11.30)(less@4.2.0):
-    resolution: {integrity: sha512-EtQU16PLIJpAZol2cTLttNP1mX6L0SyI0pgQB1VOoWeQnMSvtiwovV3D6NcjN8CZQWWyESD2v5NGnpz5RvgOZA==}
+  /vite@3.2.10(@types/node@20.11.30)(less@4.2.0):
+    resolution: {integrity: sha512-Dx3olBo/ODNiMVk/cA5Yft9Ws+snLOXrhLtrI3F4XLt4syz2Yg8fayZMWScPKoz12v5BUv7VEmQHnsfpY80fYw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6618,7 +6621,7 @@ packages:
       vue: 3.4.21(typescript@5.4.3)
     dev: true
 
-  registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.8)(vue@3.4.21):
+  registry.npmmirror.com/@vitejs/plugin-vue-jsx@2.1.1(vite@3.2.10)(vue@3.4.21):
     resolution: {integrity: sha512-JgDhxstQlwnHBvZ1BSnU5mbmyQ14/t5JhREc6YH5kWyu2QdAAOsLF6xgHoIWarj8tddaiwFrNzLbWJPudpXKYA==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-2.1.1.tgz}
     id: registry.npmmirror.com/@vitejs/plugin-vue-jsx/2.1.1
     name: '@vitejs/plugin-vue-jsx'
@@ -6631,13 +6634,13 @@ packages:
       '@babel/core': registry.npmmirror.com/@babel/core@7.21.8
       '@babel/plugin-transform-typescript': registry.npmmirror.com/@babel/plugin-transform-typescript@7.21.3(@babel/core@7.21.8)
       '@vue/babel-plugin-jsx': registry.npmmirror.com/@vue/babel-plugin-jsx@1.1.1(@babel/core@7.21.8)
-      vite: 3.2.8(@types/node@20.11.30)(less@4.2.0)
+      vite: 3.2.10(@types/node@20.11.30)(less@4.2.0)
       vue: 3.4.21(typescript@5.4.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.8)(vue@3.4.21):
+  registry.npmmirror.com/@vitejs/plugin-vue@3.2.0(vite@3.2.10)(vue@3.4.21):
     resolution: {integrity: sha512-E0tnaL4fr+qkdCNxJ+Xd0yM31UwMkQje76fsDVBBUCoGOUPexu2VDUYHL8P4CwV+zMvWw6nlRw19OnRKmYAJpw==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-3.2.0.tgz}
     id: registry.npmmirror.com/@vitejs/plugin-vue/3.2.0
     name: '@vitejs/plugin-vue'
@@ -6647,7 +6650,7 @@ packages:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.8(@types/node@20.11.30)(less@4.2.0)
+      vite: 3.2.10(@types/node@20.11.30)(less@4.2.0)
       vue: 3.4.21(typescript@5.4.3)
     dev: true
 
