@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <!-- <Navbar /> -->
+  <Navbar />
   <RouterView />
   <Footer />
 </template>
