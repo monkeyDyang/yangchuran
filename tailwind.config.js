@@ -6,18 +6,5 @@ export default {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: [
-      "emerald",
-      "cupcake",
-      "bumblebee",
-      "corporate",
-      "valentine",
-      "forest",
-      "aqua",
-      "cmyk",
-      "lemonade",
-      "night",
-      "winter",
-    ],
   },
 };
