@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^0.27.0
     version: 0.27.0(vue@3.4.27)
   unplugin-vue-router:
-    specifier: ^0.8.7
-    version: 0.8.7(vue-router@4.3.2)(vue@3.4.27)
+    specifier: ^0.8.8
+    version: 0.8.8(vue-router@4.3.2)(vue@3.4.27)
   vite:
     specifier: ^3.2.10
     version: 3.2.10(@types/node@20.12.12)(less@4.2.0)
@@ -542,7 +542,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
@@ -621,12 +621,8 @@ packages:
   /@types/eslint@8.56.10:
     resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
-    dev: true
-
-  /@types/estree@1.0.1:
-    resolution: {integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==}
     dev: true
 
   /@types/estree@1.0.5:
@@ -4246,7 +4242,7 @@ packages:
     dependencies:
       lilconfig: 2.1.0
       postcss: 8.4.38
-      yaml: 2.4.1
+      yaml: 2.4.2
     dev: true
 
   /postcss-nested@6.0.1(postcss@8.4.38):
@@ -5092,8 +5088,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.8.7(vue-router@4.3.2)(vue@3.4.27):
-    resolution: {integrity: sha512-HihvKGce/tQRU4+4+9KSe+0Dr+lWQ4ulPsxxelqbqtDoNNxeBBiIROuTO04trO3pLHRoMxmUg/XtJeItHGch/g==}
+  /unplugin-vue-router@0.8.8(vue-router@4.3.2)(vue@3.4.27):
+    resolution: {integrity: sha512-8fKHzIF8+Suc1DhoBHmGxLhXUjhzIKvdTwngAybJ+3UrhNLv7KsGrNjaBVnQmlS9VNpxlwHRJzZ2Vc7IDlDm+A==}
     peerDependencies:
       vue-router: ^4.3.0
     peerDependenciesMeta:
@@ -5422,12 +5418,6 @@ packages:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
       yaml: 2.4.2
-    dev: true
-
-  /yaml@2.4.1:
-    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
-    engines: {node: '>= 14'}
-    hasBin: true
     dev: true
 
   /yaml@2.4.2:
